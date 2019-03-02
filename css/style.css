@@ -1,0 +1,65 @@
+body, html {
+    margin: 0;
+}
+.cover{
+    width: 1300px;
+    height:250px;
+    padding: 50px;
+    background-image:url("https://media.mnn.com/assets/images/2016/05/Fresh-fruit-pretty.jpg.653x0_q80_crop-smart.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    box-shadow: 0px 5px 50px rgb(235, 6, 6);
+}
+
+.titre{
+    padding: 50px;
+    font-size: 64px;
+    color: cornsilk ;
+    font-style: oblique ;
+    text-shadow: 2px 2px 3px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.articles-title{
+    color: blue;
+    font-weight: bold;
+    font-style: inherit;
+    font-size: 4em;
+    padding-left: 50px; 
+    text-shadow: 1px 1px 1px;
+}
+
+.article{
+    display: inline-block;
+    width:47%;
+    margin:5px;
+    padding:30px;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 250px;
+}
+
+.sous-titre{
+    margin: 0 0 20px 0;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.article:hover {
+    outline: 5px solid black;
+}
+
+.bg-light-grey{
+    background-color: #eee;
+}
+
+.bg-dark-grey {
+    background-color: #333;
+    color: white;
+}
